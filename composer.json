@@ -1,0 +1,28 @@
+{
+  "name": "ailiangkuai/yii2-ueditor",
+  "description": "Yii2 extension widget of ueditor",
+  "type": "yii2-extension",
+  "license": "GPL2.0",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Rico yao",
+      "email": "ailiangkuai@qq.com"
+    }
+  ],
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  },
+  "require": {
+    "php": ">=5.5.0",
+    "yiisoft/yii2": ">=2.0.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "ailiangkuai\\yii2\\widgets\\ueditor\\": "src/"
+    }
+  }
+}
