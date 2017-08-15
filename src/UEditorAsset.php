@@ -1,6 +1,7 @@
 <?php
 
 namespace ailiangkuai\yii2\widgets\ueditor;
+
 use yii\web\AssetBundle;
 
 /**
@@ -9,9 +10,9 @@ use yii\web\AssetBundle;
  */
 class UEditorAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/ailiangkuai/src/assets/dist';
+    public $sourcePath = '@vendor/ailiangkuai/yii2-ueditor/src/assets/dist';
     public $js = [
         'ueditor.config.js',
-        'ueditor.all.js',
+        YII_DEBUG ? 'ueditor.all.js' : 'ueditor.all.min.js',
     ];
 }

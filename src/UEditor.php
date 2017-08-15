@@ -14,7 +14,7 @@ use yii\widgets\InputWidget;
  */
 class UEditor extends InputWidget
 {
-    public $ueditorAction = 'site/ueditor';
+    public $ueditorAction = '/site/ueditor';
 
     public $clientOptions = [];
 
